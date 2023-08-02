@@ -1,4 +1,3 @@
-
 import string
 
 input_string = input("Введіть рядок: ")
