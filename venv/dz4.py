@@ -1,16 +1,16 @@
 print("Введите первое число, затем операцию, затем второе число:")
-Number_1 = float(input("Введите первое число: "))
-Operation = input("Введите операцию :")
-Number_2 = float(input("Введите второе число: "))
-if Operation == "+":
-    result = Number_1 + Number_2
-elif Operation == "-":
-    result = Number_1 - Number_2
-elif Operation == "*":
-    result = Number_1 * Number_2
-elif Operation == "/":
-    if Number_2 != 0:
-        result = Number_1 / Number_2
+number_1 = float(input("Введите первое число: "))
+operation = input("Введите операцию :")
+number_2 = float(input("Введите второе число: "))
+if operation == "+":
+    result = number_1 + number_2
+elif operation == "-":
+    result = number_1 - number_2
+elif operation == "*":
+    result = number_1 * number_2
+elif operation == "/":
+    if number_2 != 0:
+        result = number_1 / number_2
 else:
     print("Неверная операция!")
 print(result)
